@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="UTF-8">
+
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style"
+    type="text/css" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b2a86">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+  <header class="page-header" role="banner">
+    <img class="header-logo" src="{{ '/assets/logos/robot_control_tc_white.svg' | relative_url }}" alt="IEEE RAS TC on Robot Control">
+    <h1 class="project-name">{{ page.display_title | default: page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline
+      }}</h2>
+
+    {% if page.date or page.venue %}
+    <div class="event-meta">
+      {% if page.date %}
+      <span class="event-meta-item">
+        <svg class="event-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+          <line x1="16" y1="2" x2="16" y2="6" />
+          <line x1="8" y1="2" x2="8" y2="6" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+        Date: {{ page.date }}
+      </span>
+      {% endif %}
+      {% if page.venue %}
+      <span class="event-meta-item">
+        <svg class="event-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+          <circle cx="12" cy="10" r="3" />
+        </svg>
+        Venue: {{ page.venue }}
+      </span>
+      {% endif %}
+    </div>
+    {% endif %}
+  </header>
+
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+
+    <footer class="site-footer">
+      <a href="https://2026.ieee-iros.org/program/forums/#fo-robotics-foundations">IROS 2026</a> Special Forum &middot; Pittsburgh, USA<br>
+      <p>&copy; {{ site.time | date: "%Y" }} <a href="https://ieee-ras-robot-control.github.io/">IEEE RAS TC on Robot
+          Control</a></p>
+    </footer>
+  </main>
+</body>
+
+</html>

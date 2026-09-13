@@ -1,0 +1,264 @@
+// ============================================================
+// Header logo
+// ============================================================
+.header-logo {
+  height: 64px;
+  width: auto;
+  margin-bottom: 1rem;
+
+  @media (max-width: 480px) {
+    height: 48px;
+  }
+}
+
+// ============================================================
+// Event meta badges (date / location in header)
+// ============================================================
+.event-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.event-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.02em;
+  backdrop-filter: blur(4px);
+  max-width: 100%;
+  text-align: center;
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+  }
+}
+
+.event-icon {
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+// ============================================================
+// Key-questions blockquote
+// ============================================================
+.main-content blockquote {
+  background: #f7f1fb;
+  border-left: 4px solid #6b3fa0;
+  padding: 4px 20px;
+
+  ul, ol {
+    margin: 0.8rem 0;
+  }
+
+  li {
+    margin-bottom: 0.6rem;
+  }
+}
+
+// ============================================================
+// Program schedule agenda (session-grouped rows)
+// ============================================================
+.agenda {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+}
+
+.session-header {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 12px 18px;
+  font-weight: 700;
+  border-top: 1px solid #e1e4e8;
+
+  .eyebrow {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    opacity: 0.75;
+  }
+
+  .title {
+    font-size: 0.95rem;
+  }
+
+  &.s1 { background: #f3ecfa; color: #6b3fa0; }
+  &.s2 { background: #fdf0e6; color: #b3612c; }
+  &.s3 { background: #eaf6f2; color: #1d8a6e; }
+}
+
+.agenda > .session-header:first-child {
+  border-top: none;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 11px 18px 11px 15px;
+  border-top: 1px solid #e1e4e8;
+  border-left: 3px solid transparent;
+
+  &:hover {
+    background: #faf8fc;
+  }
+
+  &.s1 { border-left-color: #6b3fa0; }
+  &.s2 { border-left-color: #b3612c; }
+  &.s3 { border-left-color: #1d8a6e; }
+
+  .time {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #606c71;
+    width: 98px;
+    flex-shrink: 0;
+  }
+
+  .who {
+    flex: 1;
+    min-width: 0;
+
+    .name {
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+
+    .affil {
+      font-size: 0.8rem;
+      color: #606c71;
+    }
+  }
+
+  &.plain .who .name {
+    font-weight: 600;
+  }
+
+  &.break {
+    border-left-color: transparent;
+
+    .time, .who {
+      color: #8a97a3;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .who .name {
+      font-weight: 400;
+    }
+  }
+}
+
+// ============================================================
+// Speaker chips (name + affiliation, no photo)
+// ============================================================
+.speaker-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 1.2rem 0;
+}
+
+.speaker-chip {
+  flex: 1 1 260px;
+  background: #f9f9f9;
+  border: 1px solid #e1e4e8;
+  border-left: 3px solid #6b3fa0;
+  border-radius: 6px;
+  padding: 12px 16px;
+
+  .name {
+    font-weight: 700;
+    font-size: 0.96rem;
+    color: #2c1854;
+  }
+
+  .affil {
+    display: block;
+    font-size: 0.83rem;
+    color: #606c71;
+    margin-top: 2px;
+  }
+}
+
+.tbc {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #b3612c;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+// ============================================================
+// Speaker / Organizer profile cards (with photo)
+// ============================================================
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+
+.profile-card {
+  background: #f9f9f9;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 15px;
+  width: calc(33.333% - 14px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  @media (max-width: 768px) {
+    width: calc(50% - 10px);
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.profile-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid #6b3fa0;
+}
+
+.profile-info {
+  h3 {
+    margin: 0 0 3px 0 !important;
+    font-size: 1.02rem;
+    color: #6b3fa0;
+  }
+
+  h4 {
+    margin: 0 !important;
+    font-size: 0.85rem;
+    color: #606c71;
+    font-style: italic;
+  }
+}

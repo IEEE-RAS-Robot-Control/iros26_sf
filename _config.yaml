@@ -1,0 +1,8 @@
+title: Is Robotics Underinvesting in Its Own Foundations?
+description: Special Forum at IROS 2026, IEEE RAS Technical Committee on Robot Control
+theme: jekyll-theme-cayman
+
+# GitHub Pages specific settings (Optional but recommended for Cayman)
+repository: IEEE-RAS-Robot-Control/iros26_sf
+github:
+  is_project_page: true

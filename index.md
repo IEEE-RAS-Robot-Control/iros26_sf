@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Is Robotics Underinvesting in Its Own Foundations?"
-display_title: "Is Robotics Underinvesting in<br>Its Own Foundations?"
-description: "Special Forum at IROS 2026, by the IEEE RAS Technical Committee on Robot Control"
+display_title: "Is Robotics Underinvesting<br>in Its Own Foundations?"
+description: "Special Forum at IROS 2026 - Technical Committee on Robot Control"
 date: "Tuesday, September 29, 2026, 2:30&ndash;5:00 PM"
 venue: "Room 407, IROS 2026, Pittsburgh, USA"
 ---
@@ -96,11 +96,36 @@ Co-chairs of the IEEE RAS Technical Committee on Robot Control:
       <h4>Kyushu University, Japan</h4>
     </div>
   </div>
+
+  <div class="profile-card">
+    <img src="assets/organizers/fumiya.jpg" alt="Fumiya Matsuzaki" class="profile-image">
+    <div class="profile-info">
+      <h3>Fumiya Matsuzaki</h3>
+      <h4>Kyushu University, Japan</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/organizers/yuhe.jpg" alt="Yuhe Gong" class="profile-image">
+    <div class="profile-info">
+      <h3>Yuhe Gong</h3>
+      <h4>University of Nottingham, UK</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/organizers/daniele.jpg" alt="Daniele Caradonna" class="profile-image">
+    <div class="profile-info">
+      <h3>Daniele Caradonna</h3>
+      <h4>Scuola Superiore Sant'Anna, Italy</h4>
+    </div>
+  </div>
 </div>
 
-Contact: [manuel.keppler@dlr.de](mailto:manuel.keppler@dlr.de)
+### Contact
+[manuel.keppler@dlr.de](mailto:manuel.keppler@dlr.de)
 
 ## Further Reading
 
-* TC Spotlight: Robot Control, IEEE Robotics & Automation Magazine, June 2025: [doi.org/10.1109/MRA.2025.3560465](https://doi.org/10.1109/MRA.2025.3560465)
-* IEEE RAS Technical Committee on Robot Control: [ieee-ras-robot-control.github.io](https://ieee-ras-robot-control.github.io/)
+* [TC Spotlight: Robot Control](https://doi.org/10.1109/MRA.2025.3560465), IEEE Robotics & Automation Magazine, June 2025
+* TC Website: [IEEE RAS Technical Committee on Robot Control](https://ieee-ras-robot-control.github.io/) 

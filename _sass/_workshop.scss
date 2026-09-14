@@ -52,19 +52,32 @@
 }
 
 // ============================================================
-// Key-questions blockquote
+// Key-questions box (filled, no border, titled)
 // ============================================================
-.main-content blockquote {
+.key-questions {
   background: #f7f1fb;
-  border-left: 4px solid #6b3fa0;
-  padding: 4px 20px;
+  border-radius: 8px;
+  padding: 16px 22px;
+  margin: 1.2rem 0;
+  color: #606c71;
+
+  .key-questions-title {
+    margin: 0 0 0.6rem 0;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #2c1854;
+  }
 
   ul, ol {
-    margin: 0.8rem 0;
+    margin: 0;
   }
 
   li {
     margin-bottom: 0.6rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 

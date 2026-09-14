@@ -6,3 +6,7 @@ theme: jekyll-theme-cayman
 repository: IEEE-RAS-Robot-Control/iros26_sf
 github:
   is_project_page: true
+
+exclude:
+  - README.md
+  - CLAUDE.md

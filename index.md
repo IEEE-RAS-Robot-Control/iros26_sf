@@ -15,9 +15,13 @@ The consequences are visible. Researchers, especially early-career ones, feel is
 
 This forum treats these trends as policy and community challenges rather than technical problems. It brings together senior researchers, industry leaders, and RAS leadership to examine three questions:
 
-> * Is robotics underinvesting in its theoretical and control-theoretic foundations, and what evidence supports this claim?
-> * How do current funding structures, conference organization, and publication incentives shape the research landscape for robot control?
-> * What concrete actions can the community take to sustain foundational robot control research, particularly for early-career researchers and groups with limited resources?
+<div class="key-questions" markdown="1">
+<p class="key-questions-title">Key Questions:</p>
+
+* Is robotics underinvesting in its theoretical and control-theoretic foundations, and what evidence supports this claim?
+* How do current funding structures, conference organization, and publication incentives shape the research landscape for robot control?
+* What concrete actions can the community take to sustain foundational robot control research, particularly for early-career researchers and groups with limited resources?
+</div>
 
 The forum closes a three-event initiative of the TC in 2026. The ECC 2026 workshop (Reykjavik, July 7) and the IFAC World Congress workshop (Busan, August) collected the open scientific challenges in robot control. The IROS forum turns to the community itself and asks how to rebuild a shared home for the people working on them. It will conclude with actionable recommendations for conference organizers, funding agencies, and the RAS community, to be published as a position paper.
 

@@ -173,14 +173,18 @@
 // Speaker chips (name + affiliation, no photo)
 // ============================================================
 .speaker-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
   margin: 1.2rem 0;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .speaker-chip {
-  flex: 1 1 260px;
+  min-width: 0;
   background: #f9f9f9;
   border: 1px solid #e1e4e8;
   border-left: 3px solid #6b3fa0;
@@ -213,10 +217,14 @@
 // Speaker / Organizer profile cards (with photo)
 // ============================================================
 .profile-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
   margin-bottom: 2rem;
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .profile-card {
@@ -224,19 +232,11 @@
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   padding: 15px;
-  width: calc(33.333% - 14px);
+  min-width: 0;
   box-sizing: border-box;
   display: flex;
   align-items: center;
   gap: 15px;
-
-  @media (max-width: 768px) {
-    width: calc(50% - 10px);
-  }
-
-  @media (max-width: 480px) {
-    width: 100%;
-  }
 }
 
 .profile-image {

@@ -31,7 +31,12 @@ The forum closes a three-event initiative of the TC in 2026. The ECC 2026 worksh
   <div class="row plain"><div class="time">2:30&ndash;2:40</div><div class="who"><span class="name">Opening</span></div></div>
 
   <div class="session-header s1"><span class="eyebrow">Block 1</span><span class="title">Robot Control Today and Tomorrow</span></div>
-  <div class="row s1"><div class="time">2:40&ndash;3:40</div><div class="who">Perspective talks (10 min each) by academic and industry speakers &mdash; see below</div></div>
+  <div class="row s1"><div class="time">2:40&ndash;2:50</div><div class="who"><span class="name">Sehoon Oh</span> <span class="affil">&mdash; DGIST, South Korea</span></div></div>
+  <div class="row s1"><div class="time">2:50&ndash;3:00</div><div class="who"><span class="name">Bruno Vilhena Adorno</span> <span class="affil">&mdash; The University of Manchester, UK</span></div></div>
+  <div class="row s1"><div class="time">3:00&ndash;3:10</div><div class="who"><span class="name">Sylvia Herbert</span> <span class="affil">&mdash; University of California San Diego, USA <span class="tbc">tbc</span></span></div></div>
+  <div class="row s1"><div class="time">3:10&ndash;3:20</div><div class="who"><span class="name">Michael Lutter</span> <span class="affil">&mdash; Boston Dynamics, USA <span class="tbc">tbc</span></span></div></div>
+  <div class="row s1"><div class="time">3:20&ndash;3:30</div><div class="who"><span class="name">Sven Parusel</span> <span class="affil">&mdash; Franka Robotics, Germany</span></div></div>
+  <div class="row s1"><div class="time">3:30&ndash;3:40</div><div class="who"><span class="name">Nicholas Paine</span> <span class="affil">&mdash; Apptronik, USA <span class="tbc">tbc</span></span></div></div>
   <div class="row break"><div class="time">3:40&ndash;3:55</div><div class="who">Coffee break</div></div>
 
   <div class="session-header s2"><span class="eyebrow">Block 2</span><span class="title">Rebuilding a Home for Robot Control</span></div>
@@ -43,19 +48,74 @@ The forum closes a three-event initiative of the TC in 2026. The ECC 2026 worksh
   <div class="row s3"><div class="time">4:55&ndash;5:00</div><div class="who">Summary, actionable recommendations, and announcement of the planned position paper</div></div>
 </div>
 
-Perspective talks are 10-minute personal views, not technical presentations. Each speaker closes with concrete steps for the next few years; all speakers join the closing panel. Order of Block 1 talks to be announced.
+Perspective talks are 10-minute personal views, not technical presentations. Each speaker closes with concrete steps for the next few years; all speakers join the closing panel.
 
 ## Speakers
 
-<div class="speaker-grid">
-  <div class="speaker-chip"><span class="name">Sehoon Oh</span><span class="affil">DGIST, South Korea</span></div>
-  <div class="speaker-chip"><span class="name">Bruno Vilhena Adorno</span><span class="affil">The University of Manchester, UK</span></div>
-  <div class="speaker-chip"><span class="name">Sylvia Herbert</span><span class="affil">University of California San Diego, USA <span class="tbc">tbc</span></span></div>
-  <div class="speaker-chip"><span class="name">Michael Lutter</span><span class="affil">Boston Dynamics, USA <span class="tbc">tbc</span></span></div>
-  <div class="speaker-chip"><span class="name">Sven Parusel</span><span class="affil">Franka Robotics, Germany</span></div>
-  <div class="speaker-chip"><span class="name">Nicholas Paine</span><span class="affil">Apptronik, USA <span class="tbc">tbc</span></span></div>
-  <div class="speaker-chip"><span class="name">Marcelo Ang</span><span class="affil">National University of Singapore &mdash; Chair, IEEE RAS Robotics Foundation Cluster</span></div>
-  <div class="speaker-chip"><span class="name">Hugo Rodrigue</span><span class="affil">Sungkyunkwan University &mdash; IEEE RAS VP of Technical Activities</span></div>
+<div class="profile-grid">
+  <div class="profile-card">
+    <img src="assets/speakers/sehoon.jpg" alt="Sehoon Oh" class="profile-image">
+    <div class="profile-info">
+      <h3>Sehoon Oh</h3>
+      <h4>DGIST, South Korea</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/bruno.jpeg" alt="Bruno Vilhena Adorno" class="profile-image">
+    <div class="profile-info">
+      <h3>Bruno Vilhena Adorno</h3>
+      <h4>The University of Manchester, UK</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/sylvia.jpg" alt="Sylvia Herbert" class="profile-image">
+    <div class="profile-info">
+      <h3>Sylvia Herbert <span class="tbc">tbc</span></h3>
+      <h4>University of California San Diego, USA</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/michael.png" alt="Michael Lutter" class="profile-image">
+    <div class="profile-info">
+      <h3>Michael Lutter <span class="tbc">tbc</span></h3>
+      <h4>Boston Dynamics, USA</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/sven.jpg" alt="Sven Parusel" class="profile-image">
+    <div class="profile-info">
+      <h3>Sven Parusel</h3>
+      <h4>Franka Robotics, Germany</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/nicholas.jpg" alt="Nicholas Paine" class="profile-image">
+    <div class="profile-info">
+      <h3>Nicholas Paine <span class="tbc">tbc</span></h3>
+      <h4>Apptronik, USA</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/marcelo.jpg" alt="Marcelo Ang" class="profile-image">
+    <div class="profile-info">
+      <h3>Marcelo Ang</h3>
+      <h4>National University of Singapore &mdash; Chair, IEEE RAS Robotics Foundation Cluster</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/hugo.jpg" alt="Hugo Rodrigue" class="profile-image">
+    <div class="profile-info">
+      <h3>Hugo Rodrigue</h3>
+      <h4>Sungkyunkwan University &mdash; IEEE RAS VP of Technical Activities</h4>
+    </div>
+  </div>
 </div>
 
 ## What We Ask of Speakers

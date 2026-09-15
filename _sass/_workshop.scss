@@ -182,42 +182,6 @@
   }
 }
 
-// ============================================================
-// Speaker chips (name + affiliation, no photo)
-// ============================================================
-.speaker-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  margin: 1.2rem 0;
-
-  @media (max-width: 480px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-.speaker-chip {
-  min-width: 0;
-  background: #f9f9f9;
-  border: 1px solid #e1e4e8;
-  border-left: 3px solid #6b3fa0;
-  border-radius: 6px;
-  padding: 12px 16px;
-
-  .name {
-    font-weight: 700;
-    font-size: 0.96rem;
-    color: #2c1854;
-  }
-
-  .affil {
-    display: block;
-    font-size: 0.83rem;
-    color: #606c71;
-    margin-top: 2px;
-  }
-}
-
 .tbc {
   font-size: 0.7rem;
   font-weight: 700;

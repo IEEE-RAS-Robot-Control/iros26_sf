@@ -1,0 +1,18 @@
+<!-- Custom <head> snippets. Overrides the Cayman theme's head-custom.html. -->
+
+{% include head-custom-google-analytics.html %}
+
+{%- comment -%}
+Icons come from _config.yaml: favicon (SVG), favicon_png (PNG fallback for
+browsers without SVG favicon support), apple_touch_icon (iOS bookmarks).
+Open Graph / Twitter tags are produced by {% seo %} from `image` and `twitter`.
+{%- endcomment -%}
+{%- if site.favicon_png %}
+<link rel="icon" href="{{ site.favicon_png | relative_url }}" type="image/png">
+{%- endif %}
+{%- if site.favicon %}
+<link rel="icon" href="{{ site.favicon | relative_url }}"{% if site.favicon contains '.svg' %} type="image/svg+xml"{% endif %}>
+{%- endif %}
+{%- if site.apple_touch_icon %}
+<link rel="apple-touch-icon" href="{{ site.apple_touch_icon | relative_url }}">
+{%- endif %}

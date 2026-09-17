@@ -1,11 +1,44 @@
+# ============================================================
+# Site configuration. Page text (date, venue, program) lives in
+# index.md; colors live in assets/css/style.scss.
+# Layout follows IEEE-RAS-Robot-Control/event_site_template.
+# ============================================================
+
+# Browser-tab / SEO title and one-line description.
 title: Is Robotics Underinvesting in Its Own Foundations?
 description: Special Forum at IROS 2026, IEEE RAS Technical Committee on Robot Control
+
 theme: jekyll-theme-cayman
 
-# GitHub Pages specific settings (Optional but recommended for Cayman)
+# GitHub Pages: "<owner>/<repo>" of this site's repository.
 repository: IEEE-RAS-Robot-Control/iros26_sf
 github:
   is_project_page: true
+
+# ------------------------------------------------------------
+# Icons and social preview (see event_site_template README,
+# "Icons and social preview")
+# ------------------------------------------------------------
+# Browser-tab icon: square SVG.
+favicon: /assets/favicon_tcrc.svg
+# PNG fallback for browsers without SVG favicon support.
+favicon_png: /assets/favicon_tcrc_png.png
+# iOS home-screen icon (PNG, opaque background).
+apple_touch_icon: /assets/apple-touch-icon_tcrc.png
+
+# Preview image when the link is shared (Open Graph / Twitter card),
+# emitted by the seo tag. 1200x630 PNG or JPG; give the dimensions so
+# platforms render it on the first share.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/og-image.jpg
+        width: 1200
+        height: 630
+twitter:
+  card: summary_large_image
 
 exclude:
   - README.md

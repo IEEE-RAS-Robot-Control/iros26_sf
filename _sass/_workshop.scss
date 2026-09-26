@@ -226,6 +226,17 @@
   border: 2px solid #6b3fa0;
 }
 
+.profile-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ede7f6;
+  color: #6b3fa0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+}
+
 .profile-info {
   h3 {
     margin: 0 0 3px 0 !important;

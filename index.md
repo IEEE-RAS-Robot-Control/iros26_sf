@@ -32,17 +32,16 @@ The forum closes a three-event initiative of the TC in 2026. The ECC 2026 worksh
 
   <div class="session-header s1"><span class="eyebrow">Block 1</span><span class="title">Robot Control Today and Tomorrow</span></div>
   <div class="row s1"><div class="time">2:40&ndash;2:50</div><div class="who"><span class="name">Sehoon Oh</span> <span class="affil">&mdash; DGIST, South Korea</span></div></div>
-  <div class="row s1"><div class="time">2:50&ndash;3:00</div><div class="who"><span class="name">Bruno Vilhena Adorno</span> <span class="affil">&mdash; The University of Manchester, UK</span></div></div>
-  <div class="row s1"><div class="time">3:00&ndash;3:10</div><div class="who"><span class="name">Sylvia Herbert</span> <span class="affil">&mdash; University of California San Diego, USA <span class="tbc">tbc</span></span></div></div>
-  <div class="row s1"><div class="time">3:10&ndash;3:20</div><div class="who"><span class="name">Michael Lutter</span> <span class="affil">&mdash; Boston Dynamics, USA <span class="tbc">tbc</span></span></div></div>
-  <div class="row s1"><div class="time">3:20&ndash;3:30</div><div class="who"><span class="name">Sven Parusel</span> <span class="affil">&mdash; Franka Robotics, Germany</span></div></div>
-  <div class="row s1"><div class="time">3:30&ndash;3:40</div><div class="who"><span class="name">Nicholas Paine</span> <span class="affil">&mdash; Apptronik, USA <span class="tbc">tbc</span></span></div></div>
-  <div class="row break"><div class="time">3:40&ndash;3:55</div><div class="who">Coffee break</div></div>
+  <div class="row s1"><div class="time">2:50&ndash;3:00</div><div class="who"><span class="name">Michael Lutter</span> <span class="affil">&mdash; Boston Dynamics, USA</span></div></div>
+  <div class="row s1"><div class="time">3:00&ndash;3:10</div><div class="who"><span class="name">Bruno Vilhena Adorno</span> <span class="affil">&mdash; The University of Manchester, UK</span></div></div>
+  <div class="row s1"><div class="time">3:10&ndash;3:20</div><div class="who"><span class="name">Steven Jens Jorgensen</span> <span class="affil">&mdash; Apptronik, USA</span></div></div>
+  <div class="row s1"><div class="time">3:20&ndash;3:30</div><div class="who"><span class="name">Antonio Bicchi</span> <span class="affil">&mdash; University of Pisa &amp; IIT, Italy</span></div></div>
+  <div class="row break"><div class="time">3:30&ndash;3:55</div><div class="who">Coffee break</div></div>
 
   <div class="session-header s2"><span class="eyebrow">Block 2</span><span class="title">Rebuilding a Home for Robot Control</span></div>
-  <div class="row s2"><div class="time">3:55&ndash;4:05</div><div class="who"><span class="name">Marcelo Ang</span> <span class="affil">&mdash; Chair, IEEE RAS Robotics Foundation Cluster</span></div></div>
-  <div class="row s2"><div class="time">4:05&ndash;4:15</div><div class="who"><span class="name">Hugo Rodrigue</span> <span class="affil">&mdash; IEEE RAS Vice President of Technical Activities</span></div></div>
-  <div class="row s2"><div class="time">4:15&ndash;4:55</div><div class="who">Panel discussion with all speakers: structural changes, visibility for early-career researchers, and global accessibility</div></div>
+  <div class="row s2"><div class="time">3:55&ndash;4:05</div><div class="who"><span class="name">Marcelo Ang</span> <span class="affil">&mdash; National University of Singapore; Chair of IEEE RAS Robotics Foundation Cluster</span></div></div>
+  <div class="row s2"><div class="time">4:05&ndash;4:15</div><div class="who"><span class="name">Hugo Rodrigue</span> <span class="affil">&mdash; Sungkyunkwan University; IEEE RAS Vice President of Technical Activities</span></div></div>
+  <div class="row s2"><div class="time">4:15&ndash;4:55</div><div class="who">Panel discussion with all speakers: what structural changes would strengthen robot control, how to make it visible and attractive to early-career researchers, and how its low resource requirements can make robotics more globally accessible</div></div>
 
   <div class="session-header s3"><span class="eyebrow">Closing</span><span class="title">Recommendations & next steps</span></div>
   <div class="row s3"><div class="time">4:55&ndash;5:00</div><div class="who">Summary, actionable recommendations, and announcement of the planned position paper</div></div>
@@ -62,7 +61,15 @@ Perspective talks are 10-minute personal views, not technical presentations. Eac
   </div>
 
   <div class="profile-card">
-    <img src="assets/speakers/bruno.jpeg" alt="Bruno Vilhena Adorno" class="profile-image">
+    <img src="assets/speakers/michael.png" alt="Michael Lutter" class="profile-image">
+    <div class="profile-info">
+      <h3>Michael Lutter</h3>
+      <h4>Boston Dynamics, USA</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/bruno.jpg" alt="Bruno Vilhena Adorno" class="profile-image">
     <div class="profile-info">
       <h3>Bruno Vilhena Adorno</h3>
       <h4>The University of Manchester, UK</h4>
@@ -70,34 +77,18 @@ Perspective talks are 10-minute personal views, not technical presentations. Eac
   </div>
 
   <div class="profile-card">
-    <img src="assets/speakers/sylvia.jpg" alt="Sylvia Herbert" class="profile-image">
+    <img src="assets/speakers/steven.jpg" alt="Steven Jens Jorgensen" class="profile-image">
     <div class="profile-info">
-      <h3>Sylvia Herbert <span class="tbc">tbc</span></h3>
-      <h4>University of California San Diego, USA</h4>
-    </div>
-  </div>
-
-  <div class="profile-card">
-    <img src="assets/speakers/michael.png" alt="Michael Lutter" class="profile-image">
-    <div class="profile-info">
-      <h3>Michael Lutter <span class="tbc">tbc</span></h3>
-      <h4>Boston Dynamics, USA</h4>
-    </div>
-  </div>
-
-  <div class="profile-card">
-    <img src="assets/speakers/sven.jpg" alt="Sven Parusel" class="profile-image">
-    <div class="profile-info">
-      <h3>Sven Parusel</h3>
-      <h4>Franka Robotics, Germany</h4>
-    </div>
-  </div>
-
-  <div class="profile-card">
-    <img src="assets/speakers/nicholas.jpg" alt="Nicholas Paine" class="profile-image">
-    <div class="profile-info">
-      <h3>Nicholas Paine <span class="tbc">tbc</span></h3>
+      <h3>Steven Jens Jorgensen</h3>
       <h4>Apptronik, USA</h4>
+    </div>
+  </div>
+
+  <div class="profile-card">
+    <img src="assets/speakers/antonio.jpg" alt="Antonio Bicchi" class="profile-image">
+    <div class="profile-info">
+      <h3>Antonio Bicchi</h3>
+      <h4>University of Pisa &amp; IIT, Italy</h4>
     </div>
   </div>
 
